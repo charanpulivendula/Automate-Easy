@@ -9,6 +9,7 @@ phases:
     pre_build:
         commands: 
             - echo "This is the pre build phase"
+            - printenv
     build:
         commands:
             - echo "This is the build phase"
